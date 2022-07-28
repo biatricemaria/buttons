@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>A CSS Button with TEXT & ICON</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+  <style>
+    /* .btn-wrapper {
+      border: 1px solid black;
+      height: 73px;
+      width: 315px;
+    } */
+
+    .btn {
+      display: inline-block;
+      width: 315px;
+      height: 75px;
+
+      border-radius: 60px;
+
+      text-decoration: none;
+      text-transform: uppercase;
+
+      font-family: Arial;
+      font-weight: bold;
+      font-size: 27px;
+
+      line-height: 75px;
+
+      box-shadow: 0 5px 8px 0px #55555557;
+    }
+
+    .btn-wrapper a {
+      display: block;
+      margin-bottom: 50px;
+    }
+
+    .btn-download {
+      background-color: #91c53f;
+      color: white;
+    }
+
+    .btn i:first-child {
+      width: 75px;
+      height: 75px;
+      border-radius: 60px;
+
+      text-align: center;
+      line-height: 75px;
+
+      font-size: 40px;
+
+      box-shadow: 0 5px 8px 0px #55555557;
+    }
+
+    .btn-download i{
+      background-color: white;
+      color: #91c53f;
+    }
+
+    .btn span {
+      display: inline-block;
+      text-align: center;
+      transform: translateY(-5px);
+      width: 216px; 
+      letter-spacing: 1.5px; 
+    }
+
+    .btn-download:hover {
+      background-color: #40651f;
+    }
+
+    .btn-home {
+      background-color: hsl(321deg 71% 43%);
+      color: white;
+    }
+
+    .btn i:last-child {
+      width: 75px;
+      height: 75px;
+      border-radius: 60px;
+
+      text-align: center;
+      line-height: 75px;
+
+      font-size: 40px;
+
+      box-shadow: 0 5px 8px 0px #55555557;
+    }
+
+    .btn-home i{
+      color: hsl(321deg 71% 43%);
+      background-color: white;
+    }
+
+    .btn-home:hover{
+      background-color: rgb(112, 19, 80);
+    }
+
+
+  </style>
+</head>
+<body>
+  <h1>A CSS Button with TEXT & ICON</h1>
+  
+      <div class="btn-wrapper">
+
+        <!-- button, a -->
+
+        <a class="btn btn-download" href="#/download">
+          <i class="fa-solid fa-cloud-arrow-down"></i> <span>Download</span>
+        </a>
+
+        <a class="btn btn-home" href="#/home">
+          <i class="fa-solid fa-house"></i>
+          <span>Home</span>
+        </a>
+        
+      </div>
+</body>
+</html>
